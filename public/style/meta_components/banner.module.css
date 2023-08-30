@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Monofett&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monofett&family=Roboto:wght@300&family=Russo+One&display=swap');
+.main{
+    position: relative;
+    overflow: none;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #344C11;
+}
+.main_text{
+    font-size: 36px;
+    color : whitesmoke;
+    font-family: 'Monofett', monospace;
+    font-family: 'Russo One', sans-serif;
+}
+.sub_text{
+    font-family: 'Monofett', monospace;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    font-size: 16px;
+    color:white;
+}
+.horizontal_line{
+    width: 20%;
+    height: 1px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.view_more{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #AEC670;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.view_more:hover{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color:#1A2902;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    transform: scale(1.1) translateX(12px);
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-delay: 100ms;
+    transition-timing-function: linear;
+}

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Monofett&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monofett&family=Roboto:wght@300&family=Russo+One&display=swap');
+.container{
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.maintitle{
+    font-size: 32px;
+    font-family: 'Monofett', monospace;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Russo One', sans-serif;
+}
+.subcontainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    /* justify-content: space-around;
+    align-items: center; */
+   
+}
+.sub1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin-left: 20px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.description{
+    margin-top: -10px;
+    text-align: justify;
+    padding: 5px;
+}
+.title{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+.image{
+    margin-top: 10px;
+    width: 100px;
+    height:100px;
+    margin-top: 10px;
+
+}
+.link{
+    text-decoration: none;
+    text-transform: lowercase;
+    color : darkcyan;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.reference{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
